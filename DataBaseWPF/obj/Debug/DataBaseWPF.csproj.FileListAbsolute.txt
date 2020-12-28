@@ -1,0 +1,15 @@
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\bin\Debug\DataBaseWPF.exe.config
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\bin\Debug\DataBaseWPF.exe
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\bin\Debug\DataBaseWPF.pdb
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\DataBaseWPF.csprojAssemblyReference.cache
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\MainWindow.g.cs
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\App.g.cs
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\DataBaseWPF_MarkupCompile.cache
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\DataBaseWPF_MarkupCompile.lref
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\MainWindow.baml
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\DataBaseWPF.g.resources
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\DataBaseWPF.Properties.Resources.resources
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\DataBaseWPF.csproj.GenerateResource.cache
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\DataBaseWPF.csproj.CoreCompileInputs.cache
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\DataBaseWPF.exe
+C:\Users\rogot\source\repos\DataBaseWPF\DataBaseWPF\obj\Debug\DataBaseWPF.pdb

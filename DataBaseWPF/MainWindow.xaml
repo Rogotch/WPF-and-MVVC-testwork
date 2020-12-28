@@ -1,0 +1,65 @@
+﻿<Window x:Class="DataBaseWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBaseWPF"
+        mc:Ignorable="d"
+        Title="Таблица" Height="450" Width="800">
+    <Grid x:Name="LayoutRoot" Background="Gray">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock" Grid.Column="1" Grid.ColumnSpan="5" Grid.Row="1"/>
+        <Label Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Left">Город:</Label>
+        <Label Grid.Column="5" Grid.ColumnSpan="3" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Bottom">Отдел:</Label>
+        <Label Grid.Column="8" Grid.ColumnSpan="3" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Bottom">Рабочий:</Label>
+        <Label Grid.Column="14" Grid.ColumnSpan="3" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Bottom">Бригада:</Label>
+        <Label Grid.Column="18" Grid.ColumnSpan="3" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Bottom">Смена:</Label>
+        <ComboBox Name="City" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="3" ItemsSource="{Binding Path=Cities}" SelectedItem="{Binding SelectedCity}" VerticalAlignment="Center"/>
+        <ComboBox Name="Shop" Grid.Column="5" Grid.ColumnSpan="2" Grid.Row="3" ItemsSource="{Binding Path=Shops}"  SelectedItem="{Binding SelectedShop}" VerticalAlignment="Center"/>
+        <ComboBox Name="Worker" Grid.Column="8" Grid.ColumnSpan="5" Grid.Row="3" ItemsSource="{Binding Path=Workers}" VerticalAlignment="Center"/>
+        <TextBlock Name="Brigade" Grid.Column="14" Grid.ColumnSpan="3" Grid.Row="3" VerticalAlignment="Center" FontSize="16" IsEnabled="True"/>
+        <ComboBox Name="Shift" Grid.Column="18" Grid.ColumnSpan="2" Grid.Row="3" VerticalAlignment="Center">
+            <TextBlock>1</TextBlock>
+            <TextBlock>2</TextBlock>
+            <TextBlock>3</TextBlock>
+            <TextBlock>4</TextBlock>
+        </ComboBox>
+        <Button Grid.Column="18" Grid.ColumnSpan="2" Grid.Row="8" VerticalAlignment="Top" Margin="0,11,0,0" Click="Button_Click">Экспорт</Button>
+
+
+    </Grid>
+</Window>
